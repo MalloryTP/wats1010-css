@@ -22,6 +22,7 @@ header.page-header {
   font-size: medium;
 }
 aside.more-info {
+  padding: 2rem;
   background-color: #e0e0d1;
   border: solid 1px black;
   padding: 1rem;
@@ -41,6 +42,10 @@ section#content {
 .poem li {
   font-size: large;
   line-height: 2;
+}
+.poem::first-letter {
+  font-size: 200%;
+  font-style: bold;
 }
 footer.page-footer {
   border: solid 1px black;
